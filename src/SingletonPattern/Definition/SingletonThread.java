@@ -1,9 +1,9 @@
 package SingletonPattern.Definition;
 
-public class Singleton {
-    public static Singleton singletonNoThreadSafe= null;
+public class SingletonThread {
+    public static SingletonThread singletonNoThreadSafe= null;
 
-    public Singleton(){
+    public SingletonThread(){
 
     }
 
@@ -11,9 +11,9 @@ public class Singleton {
      * 这种做法会导致线程不安全
      * @return
      */
-    public static Singleton getSingleton(){
+    public static SingletonThread getSingleton(){
         if(singletonNoThreadSafe == null){
-            singletonNoThreadSafe = new Singleton();
+            singletonNoThreadSafe = new SingletonThread();
         }
         return singletonNoThreadSafe;
     }
@@ -22,9 +22,9 @@ public class Singleton {
      * 线程安全
      * @return
      */
-    public static synchronized Singleton getSingletonNoThreadSafe(){
+    public static synchronized SingletonThread getSingletonNoThreadSafe(){
         if(singletonNoThreadSafe == null){
-            singletonNoThreadSafe = new Singleton();
+            singletonNoThreadSafe = new SingletonThread();
         }
         return singletonNoThreadSafe;
     }
