@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de99e8c-5dfa-4b9b-a31b-4cae1aa6b057" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/AbstractHumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/BlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/HumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/NvWa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/WhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/YellowHuman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/Definition/SingletonNoThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonPattern/Definition/SingletonThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NvWa">
     <configuration name="Minister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingletonPattern.Emperor.Minister" />
       <module name="DesignPatternsProject" />
@@ -56,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NvWa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryPattern.NvWa" />
+      <module name="DesignPatternsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NvWa" />
         <item itemvalue="Application.Minister" />
       </list>
     </recent_temporary>
@@ -72,8 +92,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600092885089</updated>
-      <workItem from="1600092888988" duration="2046000" />
+      <workItem from="1600092888988" duration="5726000" />
     </task>
+    <task id="LOCAL-00001" summary="修改部分单例模式代码">
+      <created>1600161493617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600161493617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改部分单例模式代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部分单例模式代码" />
   </component>
 </project>
