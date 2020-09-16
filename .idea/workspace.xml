@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de99e8c-5dfa-4b9b-a31b-4cae1aa6b057" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPattern/HummerH1Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPattern/HummerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9de99e8c-5dfa-4b9b-a31b-4cae1aa6b057" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600092885089</updated>
       <workItem from="1600092888988" duration="7352000" />
-      <workItem from="1600245030267" duration="2826000" />
+      <workItem from="1600245030267" duration="3098000" />
     </task>
     <task id="LOCAL-00001" summary="修改部分单例模式代码">
       <created>1600161493617</created>
@@ -117,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600177585969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加模板方法模式">
+      <created>1600248672170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600248672170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改部分单例模式代码" />
     <MESSAGE value="增加工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加工厂模式" />
+    <MESSAGE value="增加模板方法模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加模板方法模式" />
   </component>
 </project>

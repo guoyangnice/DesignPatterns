@@ -2,12 +2,12 @@ package TemplateMethodPattern;
 
 public class HummerH2Model extends HummerModel {
     @Override
-    public void start() {
+    protected void start() {
         System.out.println("h2开始了...");
     }
 
     @Override
-    public void stop() {
+    protected void stop() {
         System.out.println("h2结束了...");
     }
 }
